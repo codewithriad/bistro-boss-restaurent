@@ -8,5 +8,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
+  // <div className='md:max-w-screen-2xl mx-auto'>
+
+  // </div>
 );
-  
