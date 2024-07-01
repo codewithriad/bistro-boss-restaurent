@@ -1,0 +1,10 @@
+.featured{
+    height: 720px;
+    padding-bottom: 3rem;
+    background-image: url('../../../assets/home/featured.jpg');
+
+    background-position: center;
+    background-size: cover;
+   background-color: #000000;
+    
+}

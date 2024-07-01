@@ -1,8 +1,11 @@
+import Button from '../../../Components/shared/Button'
+import TitleName from '../../../Components/shared/TitleName/TitleName'
 import menuBg from '../../../assets/menu/menu-bg.png'
 
 const Menu = () => {
     return (
-        <>
+        <section>
+            <TitleName heading="From Our Menu" subHeading="Check It Out" />
             <div className='flex justify-between items-center flex-row gap-4'>
                 <div>
                     <div className='flex justify-between items-center gap-4 mb-6'>
@@ -60,9 +63,10 @@ const Menu = () => {
 
             </div>
             <div className='flex justify-center items-center my-8'>
-                <button className="text-black bg-transparent border-black border-b-2 mb-4 pb-2 hover:rounded-b-md font-medium text-lg transition-all">ORDER YOUR FAVOURITE FOODS</button>
+                {/* <button className="text-black bg-transparent border-black border-b-2 mb-4 pb-2 hover:rounded-b-md font-medium text-lg transition-all">ORDER YOUR FAVOURITE FOODS</button> */}
+                <Button>ORDER YOUR FAVOURITE FOODS</Button>
             </div>
-        </>
+        </section>
 
 
 

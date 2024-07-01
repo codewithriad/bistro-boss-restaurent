@@ -2,13 +2,17 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      featuredBackground:{
+        'featured-image': "url('/client/src/assets/home/featured.jpg"
+      }
+    },
   },
   plugins: [
-    require('daisyui'),
+    require('daisyui')
   ],
 }
 
